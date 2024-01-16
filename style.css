@@ -1,7 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
     display: flex;
+    flex-flow: column wrap;
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.logotext {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.header, .footer {
+    background: #1F2937;
 }
 
-.header, .footer {
-    background: #1F2937
+.cardtitle {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+a, .carddescription, .ctainfo {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+a, ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.signupbutton {
+    background: #3882F6;
+    color: #F9FAF8;
+    margin-top: 10px;
+    width: 125px;
+    height: 40px;
+    border-radius: 10px;
+    border-color: #3882F6;
+}
+
+.infotitle {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.quote {
+    background: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
+
+.qcontainer {
+    display: flex;
+    flex-direction: column;
+    max-width: 57%;
+    justify-content: center;
+    margin: 100px;
+}
+
+.quoteauthor {
+    align-self: self-end;
+    padding-right: 35px;
+    color: #1F2937;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.quotetext {
+    color: grey;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.topheader, ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.hcontainer {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.bheader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.infocard {
+    max-width: 450px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding: 0;
+    gap: 40px;
+}
+
+.infolist {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 200px;
+    gap: 50px;
+}
+
+.box {
+    border: 3px solid;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border-color: #3882F6;
+}
+
+.infotext {
+    text-align: center;
+}
+
+.box {
+    height: 157px;
+    width: 157px;
+}
+
+.ctacard {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #3882F6;
+    width: 80%;
+    height: 150px;
+    border-radius: 10px;
+    border-color: #3882F6;
+    padding: 0px;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+
+}
+
+.ctatext {
+    display: flex;
+    flex-direction: column;
+}
+
+.ctatitle {
+    font-size: 20px;
+    color: white;
+}
+
+.ctabutton {
+    border-radius: 10px;
+    border-color: white;
+    background: transparent;
+    border-style: solid;
+    height: 25%;
+    width: 15%;
+    font-size: 19px;
+    color: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    color: white;
 }
